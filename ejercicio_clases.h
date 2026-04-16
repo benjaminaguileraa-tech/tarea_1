@@ -25,7 +25,7 @@ public:
     }
 
     virtual ~Ejercicio() {
-        cout << "Se destruyo el ejercicio " << this->nombre << endl;
+        cout << "Se destruye el ejercicio " << this->nombre << endl;
     }
 
     virtual void consultarEjercicio() {
